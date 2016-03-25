@@ -113,10 +113,29 @@
         And it's up to you to teach them!</p>
     </section>
    </article>
-   
-         
- 
-       
-  
+   <form action="contacts" method="post">
+    <p><b>Feedback</b></p>
+   <label>
+    <input type="radio" name="net" value="Telephone" checked>Telephone
+   </label>
+   <label>
+    <input type="radio" name="net" value="Email" checked>EMAIL
+   </label>
+   <fieldset>
+   <label for="name">Name</label>
+   <input name="name" type='text' novalidate autofocus>
+   </fieldset>
+   <fieldset>
+    <label for="Email">Email</label>
+    <input type="text" id="email" validation>
+   </fieldset>
+   <fieldset>
+    <label for="Telephone">Age</label>
+    <input name="age" type="number" min="1" max="100" value="10">
+   </fieldset>
+   <button name="submit">
+      <strong>Send </strong>
+   </button>
+   </form>
  </body>
 </html>

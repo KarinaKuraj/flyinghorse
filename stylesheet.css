@@ -1,0 +1,53 @@
+body {
+     background-color:grey;
+}
+h1 {
+    font-family:Arial serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.header {
+    position:relative;
+    top:-5px;
+    border:1px solid;
+    font-family:Tahoma,sans-serif;
+    background-color: lightskyblue;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+} 
+.navbar {
+    text-align: center;
+}
+
+.navbar li {
+    display:inline;
+    border:2px solid;
+    border-radius: 5px 5px;
+    background-color: blue;
+    padding: 12px;
+    
+    
+}
+#headertwo {
+    text-align:  center;
+}
+#headertwo li {
+       display: inline;
+       background-color: white;
+       padding: 10px;
+}
+#foto{
+    text-align: center;
+}
+.fotochild  {
+    display: inline;
+    height: 400px;
+    width:400px;
+}
+   
+    
+
+
+     
