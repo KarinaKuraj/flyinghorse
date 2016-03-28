@@ -1,38 +1,45 @@
 <!DOCTYPE html>
 <html>
- <head>
-    <meta charset="utf-8">
-      <link rel="stylesheet" href="stylesheet.css"/>
-       <title>kurayresume</title>
- </head>
- <body>
-   <div id="first">
+  <head>
+    <meta charset="utf-8"/>
+      <link rel="stylesheet" href="stylesheetsec.css"/>
+       <title>second page</title>
+  </head>
+  <body>
+    <div class="wrapper"> 
       <header class="header">
-       <img src="https://pp.vk.me/c621818/v621818998/1fdee/2h0TQBdd06U.jpg"/>
+         <p class="head">About me</p>
+         <hr>
       </header>
-      <article>
-        <p id="name">KARINA KURAY<p>
-          <div class="text">
-           <p>Hi, I`m a professional <b>web-developer.</b></p>
-           <p>Do you wanna know about me more?</p>
-          </div> 
-      </article>
-      <nav class="navbar">
-        <ul>
-          <li><button>ABOUT ME</button></li>
-          <li><button>EDUCATION</button>
-          <li><button>SKILLS</button></li>
-          <li><button>MY PROJECTS</button></li>
-        </ul>
-      </nav>
-      <footer>
-        <nav>
-          <a class="twitter-logo" href="https://twitter.com/Snapsvg">Twitter</a>
-          <a class="github-logo" onclick="trackOutboundLink(this, 
-         'GitHub', '0.4.1');return false;" href="https://github.com/adobe-webplatform/Snap.svg">Github</a>
-          <a class="facebook-logo" href ="https://www.facebook.com/groups/">Facebook</a>
-        </nav> 
-      </footer>
-   </div> 
+      <div id="flex">
+          <img id="pic" src="https://pp.vk.me/c621924/v621924998/1b39f/aqXv8FUUF_8.jpg"/>
+        <div class="list">
+          <ul>
+             <li><b>Name:</b>Karina Kuray</li>
+             <li><b>Birth:</b>04 1990</li>
+             <li><b>Adress:</b>Lviv</li>
+             <li><b>Email:</b>karina_gretta@ukr.net</li>
+          </ul>
+        </div>     
+     </div>     
+     <article class="flex">
+       <header>
+           <p class="head">Education</p>
+       </header>
+       <section>
+         <p><b>2007-2012</b></p>
+         <p>University</p>
+         <p><b>2015-2016</b></p>
+         <p>Softserve</p>
+       </section>
+       <section class="flex">
+         <p class="head">Skills</p>
+       </section>
+       <section>
+         <p class="head">My projects</p>
+       </section>
+     </article>
+    </div> 
+     
   </body>
-</html>
+ </html>
