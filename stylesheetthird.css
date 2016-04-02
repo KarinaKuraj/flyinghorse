@@ -1,0 +1,52 @@
+body .wrapper {
+    height:100%;
+    
+}
+.wrapper {
+    margin-left:30px;
+    width:75%;
+    
+}
+header {
+    position: relative;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+header p {
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.line {
+    display:inline;
+    position:relative;
+    margin-top:-10px;
+}
+
+
+#main {
+    position:relative;
+    height: 50%;
+    margin:10px;
+    
+}
+
+.box {
+    position:relative;
+    width:300px;
+    margin:10px 100px 100px 30px;
+    
+}
+.form {
+    
+}
+
+
+.flex {
+    display:flex;
+}
+
+
+

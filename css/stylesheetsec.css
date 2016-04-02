@@ -1,0 +1,59 @@
+ html {
+     background-image:url(Images/stones.jpg);
+ }
+ .wrapper {
+     position:absolute;
+     background-color:#FFFFE0;
+     width:80%;
+     height:1000px;
+     margin:2px 50px 2px 100px;
+     border-radius:15px;
+     text-align:center;
+     opacity:0.9;
+ }
+ 
+ hr {
+     width:300px ;
+     color:#2F4F4F;
+}
+
+#flex {
+   display: inline;
+   margin-top: 20px;
+}
+
+img {
+    width:200px;
+    height:250px;
+}
+
+.image {
+    float:left;
+    margin:10px 10px 10px 200px;
+}
+
+.list {
+    overflow:hidden;
+    height:300px;
+}
+
+.list li {
+    text-align: left;
+}
+
+.left {
+    float: left;
+    margin-left:200px;
+}
+
+.head {
+     font-family:Courier sans-serif;
+     font-size:30px;
+     color:#5F9EA0;
+ }
+
+.right {
+    float:right;
+    margin-right:200px;
+}
+ 
