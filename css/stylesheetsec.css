@@ -1,5 +1,5 @@
  html {
-     background-image:url(Images/stones.jpg);
+     background-image:url(Images/ancor.jpg);
  }
  .wrapper {
      position:absolute;
@@ -13,47 +13,34 @@
  }
  
  hr {
+     text-align:center;
      width:300px ;
      color:#2F4F4F;
+ }
+
+ .header {
+     text-align:center;
+     
+ }
+#flex {
+    display:-webkit-flex;
+    display: flex;
 }
 
-#flex {
-   display: inline;
-   margin-top: 20px;
-}
 
 img {
     width:200px;
-    height:250px;
+    height:200px;
+}
+ul li {
+    text-align:no repeat left center;
 }
 
-.image {
-    float:left;
-    margin:10px 10px 10px 200px;
-}
-
-.list {
-    overflow:hidden;
-    height:300px;
-}
-
-.list li {
-    text-align: left;
-}
-
-.left {
-    float: left;
-    margin-left:200px;
-}
-
-.head {
-     font-family:Courier sans-serif;
+ 
+ 
+ .head {
+     font:Courier sans-serif;
      font-size:30px;
-     color:#5F9EA0;
  }
 
-.right {
-    float:right;
-    margin-right:200px;
-}
  

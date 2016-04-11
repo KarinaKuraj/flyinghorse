@@ -37,57 +37,6 @@ html {
     transition:transform 0.8s ease-out; 
 }
 
-.text:hover{
-    cursor: pointer;
-    transform:scale(2) rotate(360deg);
-}
-
-.navbar{
-    position:relative;
-    margin:40px 60px 20px 80px;
-    text-align:center;
-    opacity:0.5;
-}
-
-button{
-    display: block;
-    height: 50px;
-    width: 300px;
-    border:0.5px;
-    margin: -10px 30px -5px 30px;
-    font:Helvetica 30px;
-    background-color:#DCDCDC;
-    color:#696969;
-    text-align:center;
-}
-
-.navbar button:focus {
-    background-color: #B0E0E6;
-}
-
-@media screen and (max-width:500px){
-    body {
-        max-width:500px;
-    }
-    #first{
-        float:left;
-    }
-    header {
-        width:200px;
-    }
-
-    #name{
-        width:200px;
-    }
-    nav button {
-        width:250px;
-    }
-    footer {
-        float:left;
-        width:10%;
-    }
-    
-
 
 
 
